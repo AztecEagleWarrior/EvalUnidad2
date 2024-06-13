@@ -10,6 +10,7 @@ import InstructoresView from '@/components/Instructores.vue'
 import PuestoView from '@/components/Puesto.vue'
 import PersonaView from '@/components/Persona.vue'
 import UsuarioView from '@/components/Usuario.vue'
+import Footer from  '@/components/Pie-Pagina.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -47,6 +48,7 @@ const router = createRouter({
         {path:'/Horario', name:'horario', component:HorarioView},
         {path:'/Instructores', name:'instructores', component:InstructoresView},
         {path:'/Puesto', name:'puesto', component:PuestoView},
+        {path:'/Footer', name:'footer', component:Footer}
       ]
     }
   ]
