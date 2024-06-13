@@ -1,1 +1,1 @@
-# Gimnasio_2.0
+# Gimnacio2.0
